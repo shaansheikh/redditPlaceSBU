@@ -67,13 +67,13 @@ def place_pixel(ax, ay, new_color):
 	return result
 
 def download_img_data():
-	#download the image file
-	logofileurl = "http://www.shaansweb.com/sbulogo.pickle"
-	logofile = urllib.request.urlopen(logofileurl)
-	data = logofile.read()
-	logofile.close()
-	with open("sbulogo.pickle", "wb") as f :
-		f.write(data)
+	##download the image file
+	#logofileurl = "http://www.shaansweb.com/sbulogo.pickle"
+	#logofile = urllib.request.urlopen(logofileurl)
+	#data = logofile.read()
+	#logofile.close()
+	#with open("sbulogo.pickle", "wb") as f :
+	#	f.write(data)
 
 	#open the image file
 	global logodata	
