@@ -44,7 +44,7 @@ def find_palette(point):
 
 
 
-width = 37
+width = 12
 height = 14
 
 total = width * height
